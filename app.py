@@ -2026,7 +2026,7 @@ Use formal financial advisory language. Reference cost of living in {location} w
                         client = Groq()
                         full_response = ""
                         stream = client.chat.completions.create(
-                            model="llama-3.1-8b-instant",
+                            model="openai/gpt-oss-20b",
                             max_tokens=3500,
                             messages=[{"role": "user", "content": prompt}],
                             stream=True
