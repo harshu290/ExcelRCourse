@@ -4,3 +4,4 @@ plotly
 groq
 pandas
 openpyxl
+python-dotenv
